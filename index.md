@@ -15,5 +15,29 @@ to music (mostly new wave, prog rock, and jazz).
 
 Feel free to say hi at <{{ site.email }}>.
 
+## Projects & miscellany
+In the summer of 2025, as part of the [SUAMI][suami] REU at Carnegie
+Mellon, I worked with Suhas Alladaboina, Sydney Badescu, and Dr. Pavel
+Kovalev, on an adaptation of [*An Infinite Descent into Pure
+Mathematics*][infdesc] into a [Lean][lean] [game][leangame] to teach
+beginning undergrads about writing proofs.  The game is still up at
+<https://adam.math.hhu.de/#/g/suhas11a/lean_game>, although it is
+unfinished.  We presented our work as a [poster][suami-poster] at JMM
+2026.
+
+During my sophomore year at Tech, I wrote a FORTH implementation, plus
+a keyboard and video driver, for a homebrew computer developed by
+Prof. Aaron Lanterman called the RetCom87.  I showcased it in a
+[couple of][rc87-1] [YouTube videos][rc87-2], and the code is still up
+[on GitHub][rc87-gh].
+
 [iir]: https://iincer.github.io/
 [sail]: https://gatech-sysml.github.io/
+[suami]: https://www.cmu.edu/math/undergrad/suami/2025/index.html
+[infdesc]: https://infinitedescent.org/
+[lean]: https://lean-lang.org/
+[leangame]: https://adam.math.hhu.de/
+[suami-poster]: /misc/suami-poster.pdf
+[rc87-1]: https://www.youtube.com/watch?v=D8S4Y10dSjg
+[rc87-2]: https://www.youtube.com/watch?v=Mh67usZmfDo
+[rc87-gh]: https://github.com/rohanbafna/RetCom87-forth
