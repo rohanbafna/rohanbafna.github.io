@@ -4,11 +4,12 @@
 @import "{{ site.theme }}";
 
 #header {
-    border-bottom: 1px dotted gray;
+    border-top: 1px dotted gray;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
+    margin-bottom: 1em;
 }
 
 #header h1 {
@@ -33,4 +34,8 @@
 
 #header li:not(:first-child) {
     padding-left: 1ch;
+}
+
+.markdown-body {
+    max-width: 50em;
 }
