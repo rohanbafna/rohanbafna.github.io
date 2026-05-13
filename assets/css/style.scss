@@ -133,3 +133,11 @@ a:hover {
   text-decoration: none;
   border-bottom: 0.5px rebeccapurple solid;
 }
+
+.markdown-body h2 {
+    margin-top: 2em;
+    border-top: 1px solid #eaecef;
+    padding-top: 0.3em;
+    font-size: 1.2em;
+    font-weight: 300;
+}
