@@ -137,7 +137,9 @@ a:hover {
 .markdown-body h2 {
     margin-top: 2em;
     border-top: 1px solid #eaecef;
+    border-bottom: none;
     padding-top: 0.3em;
+    padding-bottom: none;
     font-size: 1.2em;
     font-weight: 300;
 }
