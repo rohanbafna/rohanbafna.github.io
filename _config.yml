@@ -1,6 +1,7 @@
 title: Rohan Bafna
 description: Rohan Bafna's personal website
 email: rohannb@umich.edu
+repository: rohanbafna/rohanbafna.github.io
 
 remote_theme: pages-themes/primer@v0.6.0
 plugins:
