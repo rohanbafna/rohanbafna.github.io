@@ -1,0 +1,30 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+    border-bottom: 1px dotted gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: inherit;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header li:not(:first-child)::before {
+    content: '/';
+    padding-right: 1ch;
+}
+
+header li:not(:first-child) {
+    padding-left: 1ch;
+}
