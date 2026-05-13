@@ -3,6 +3,84 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-BoldItalic.woff2");
+    font-weight: 700 799;
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-Bold.woff2");
+    font-weight: 700 799;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-ExtraLightItalic.woff2");
+    font-weight: 200 299;
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-ExtraLight.woff2");
+    font-weight: 200 299;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-Italic.woff2");
+    font-weight: 400 499;
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-LightItalic.woff2");
+    font-weight: 300 399;
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-Light.woff2");
+    font-weight: 300 399;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-MediumItalic.woff2");
+    font-weight: 500 599;
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-Medium.woff2");
+    font-weight: 500 599;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-Regular.woff2");
+    font-weight: 400 499;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-SemiBoldItalic.woff2");
+    font-weight: 600 699;
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-SemiBold.woff2");
+    font-weight: 600 699;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-ThinItalic.woff2");
+    font-weight: 100 199;
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Drafting* Mono";
+    src: url("/fonts/drafting-mono/DraftingMono-Thin.woff2");
+    font-weight: 100 199;
+}
+
 #header {
     border-top: 1px dotted gray;
     display: flex;
@@ -39,4 +117,5 @@
 
 .markdown-body {
     max-width: 50em;
+    font-family: "Drafting* Mono", monospace;
 }
