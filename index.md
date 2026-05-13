@@ -2,11 +2,11 @@
 title: About me
 ---
 I am an incoming PhD student in Electrical and Computer Engineering at
-the University of Michigan, advised by [Prof. Inigo Incer][iir].
+the University of Michigan, advised by [Prof. Inigo Incer][iir]. 
 Previously, I was an undergraduate student at Georgia Tech, graduating
-in the spring of 2026 with a BS in Computer Science and Mathematics.
+in the spring of 2026 with a BS in Computer Science and Mathematics. 
 While at Tech, I did research in scheduling supervised by Prof. Alexey
-Tumanov at the [SAIL lab][sail]. I’m most interested in formal
+Tumanov at the [SAIL lab][sail].  I’m most interested in formal
 verification of systems, type theory, programming languages, and
 formal mathematics.
 
