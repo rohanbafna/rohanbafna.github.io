@@ -1,8 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
-
 @font-face {
     font-family: "Drafting* Mono";
     src: url("/fonts/drafting-mono/DraftingMono-BoldItalic.woff2");
@@ -79,76 +74,4 @@
     font-family: "Drafting* Mono";
     src: url("/fonts/drafting-mono/DraftingMono-Thin.woff2");
     font-weight: 100 199;
-}
-
-.markdown-body {
-    font-size: 18px;
-}
-
-#header {
-    border-top: 1px dotted gray;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 1.5em;
-    padding-top: 0.25em;
-}
-
-#header h1 {
-    font-size: 1.5em;
-    font-weight: 200;
-    font-style: italic;
-    padding: 0px;
-    margin: 0px;
-    border: none;
-    line-height: normal;
-}
-
-#header ul {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    list-style-type: none;
-    margin: 0px;                // overrides default margin from theme
-}
-
-#header li:not(:first-child)::before {
-    content: '/';
-    padding-right: 1ch;
-}
-
-#header li:not(:first-child) {
-    padding-left: 1ch;
-}
-
-.markdown-body {
-    max-width: 45em;
-    font-family: "Drafting* Mono", monospace;
-}
-
-a {
-    color: inherit;
-    font-style: italic;
-    border-bottom: 1px rebeccapurple dotted;
-}
-
-a:hover {
-  text-decoration: none;
-  border-bottom: 0.5px rebeccapurple solid;
-}
-
-.markdown-body h2 {
-    margin-top: 2.5em;
-    border-top: 1px dotted darkgray;
-    border-bottom: none;
-    padding-top: 0.3em;
-    padding-bottom: 0em;
-    font-size: 1.1em;
-    font-weight: 300;
-}
-
-.anchorjs-link {
-    padding-left: 0 !important;
-    margin-left: 0.375em !important;
 }
