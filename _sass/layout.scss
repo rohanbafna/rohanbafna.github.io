@@ -1,21 +1,26 @@
 body {
     max-width: 43rem;
-    margin: 30px auto;
-    padding: 0px;
+    margin: 0px auto;
+    padding: 2rem;
 }
 
 header {
     border-top: 1px dotted gray;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 1.5em;
-    padding-top: 0.25em;
+    margin-bottom: 1.5rem;
+    padding-top: 0.5rem;
 
     h1 {
-        margin: 0px;
+        margin: 0px 1ch 0.4em 0px;
         padding: 0px;
+    }
+
+    nav {
+        flex-shrink: 0;
+        padding-right: 2px;
     }
 
     ul {
@@ -25,14 +30,14 @@ header {
         list-style-type: none;
         margin: 0px;
         padding: 0px;
-    }
 
-    li:not(:first-child)::before {
-        content: '/';
-        padding-right: 1ch;
-    }
+        li:not(:first-child)::before {
+            content: '/';
+            padding-right: 1ch;
+        }
 
-    li:not(:first-child) {
-        padding-left: 1ch;
+        li:not(:first-child) {
+            padding-left: 1ch;
+        }
     }
 }
