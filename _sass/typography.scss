@@ -1,15 +1,9 @@
 @import "drafting-mono";
 
 html {
-    font: normal 18px "Drafting* Mono", monospace;
+    font: normal clamp(15px, 2.5vw, 18px) "Drafting* Mono", monospace;
     background: #fff;
     color: #2e2e2e;
-}
-
-@media (width < 600px) {
-    html {
-        font-size: 16px;
-    }
 }
 
 main {
