@@ -21,13 +21,13 @@ Mellon, I worked with Suhas Alladaboina, Sydney Badescu, and Dr. Pavel
 Kovalev, on an adaptation of <cite>[An Infinite Descent into Pure
 Mathematics][infdesc]</cite> into a [Lean][lean]
 [game][lean-game-server] to teach beginning undergrads about writing
-proofs.  The game is [still up][lean-game], although it is unfinished.
-We presented our work as a [poster][suami-poster] at JMM 2026.
+proofs.  [The game is still up][lean-game], although it is unfinished.
+We presented our work as [a poster][suami-poster] at JMM 2026.
 
 During my sophomore year at Tech, I wrote a FORTH implementation, plus
 a keyboard and video driver, for a homebrew computer developed by
 Prof. Aaron Lanterman called the RetCom87.  I showcased it in a
-[couple of][rc87-1] [YouTube videos][rc87-2], and the code is up [on
+[couple of][rc87-1] [YouTube videos][rc87-2], and [the code is up on
 GitHub][rc87-gh].
 
 [iir]: https://iincer.github.io/
