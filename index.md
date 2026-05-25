@@ -18,11 +18,11 @@ Feel free to say hi at <{{ site.email }}>.
 ## Projects & miscellany
 In the summer of 2025, as part of the [SUAMI][suami] REU at Carnegie
 Mellon, I worked with Suhas Alladaboina, Sydney Badescu, and Dr. Pavel
-Kovalev, on an adaptation of [*An Infinite Descent into Pure
-Mathematics*][infdesc] into a [Lean][lean] [game][lean-game-server] to
-teach beginning undergrads about writing proofs.  The game is [still
-up][lean-game], although it is unfinished.  We presented our work as a
-[poster][suami-poster] at JMM 2026.
+Kovalev, on an adaptation of <cite>[An Infinite Descent into Pure
+Mathematics][infdesc]</cite> into a [Lean][lean]
+[game][lean-game-server] to teach beginning undergrads about writing
+proofs.  The game is [still up][lean-game], although it is unfinished.
+We presented our work as a [poster][suami-poster] at JMM 2026.
 
 During my sophomore year at Tech, I wrote a FORTH implementation, plus
 a keyboard and video driver, for a homebrew computer developed by
