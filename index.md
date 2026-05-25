@@ -19,10 +19,10 @@ Feel free to say hi at <{{ site.email }}>.
 In the summer of 2025, as part of the [SUAMI][suami] REU at Carnegie
 Mellon, I worked with Suhas Alladaboina, Sydney Badescu, and Dr. Pavel
 Kovalev, on an adaptation of <cite>[An Infinite Descent into Pure
-Mathematics][infdesc]</cite> into a [Lean][lean]
-[game][lean-game-server] to teach beginning undergrads about writing
-proofs.  [The game is still up][lean-game], although it is unfinished.
-We presented our work as [a poster][suami-poster] at JMM 2026.
+Mathematics][infdesc]</cite> into a [Lean game][lean-game-server] to
+teach beginning undergrads about writing proofs.  [The game is still
+up][lean-game], although it is unfinished.  We presented our work as
+[a poster][suami-poster] at JMM 2026.
 
 During my sophomore year at Tech, I wrote a FORTH implementation, plus
 a keyboard and video driver, for a homebrew computer developed by
@@ -34,7 +34,6 @@ GitHub][rc87-gh].
 [sail]: https://gatech-sysml.github.io/
 [suami]: https://www.cmu.edu/math/undergrad/suami/2025/index.html
 [infdesc]: https://infinitedescent.org/
-[lean]: https://lean-lang.org/
 [lean-game-server]: https://adam.math.hhu.de/
 [lean-game]: https://adam.math.hhu.de/#/g/suhas11a/lean_game
 [suami-poster]: /misc/suami-poster.pdf
