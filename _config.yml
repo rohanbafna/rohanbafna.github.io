@@ -1,11 +1,18 @@
 title: Rohan Bafna
 description: Rohan Bafna's personal website
 email: rohannb@umich.edu
-repository: rohanbafna/rohanbafna.github.io
+github_url: https://github.com/rohanbafna
 
-remote_theme: pages-themes/primer@v0.6.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-seo-tag
+- jekyll-cache-bust
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
 
 exclude:
   - "*.nix"

@@ -3,4 +3,8 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "github-pages", group: :jekyll_plugins
+gem "base64"
+gem "bigdecimal"
+gem "jekyll-seo-tag"
+gem "kramdown-parser-gfm"
+gem "jekyll-cache-bust"
