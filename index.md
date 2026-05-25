@@ -2,11 +2,11 @@
 title: About me
 ---
 I am an incoming PhD student in Electrical and Computer Engineering at
-the University of Michigan, advised by [Prof. Inigo Incer][iir]. 
+the University of Michigan, advised by [Prof. Inigo Incer][iir].
 Previously, I was an undergraduate student at Georgia Tech, graduating
-in the spring of 2026 with a BS in Computer Science and Mathematics. 
+in the spring of 2026 with a BS in Computer Science and Mathematics.
 While at Tech, I did research in scheduling supervised by Prof. Alexey
-Tumanov at the [SAIL lab][sail].  I’m most interested in formal
+Tumanov at the [SAIL lab][sail].  I’m most interested in formal
 verification of systems, type theory, programming languages, and
 formal mathematics.
 
@@ -20,13 +20,13 @@ In the summer of 2025, as part of the [SUAMI][suami] REU at Carnegie
 Mellon, I worked with Suhas Alladaboina, Sydney Badescu, and Dr. Pavel
 Kovalev, on an adaptation of [*An Infinite Descent into Pure
 Mathematics*][infdesc] into a [Lean][lean] [game][lean-game-server] to
-teach beginning undergrads about writing proofs.  The game is [still
-up][lean-game], although it is unfinished.  We presented our work as a
+teach beginning undergrads about writing proofs.  The game is [still
+up][lean-game], although it is unfinished.  We presented our work as a
 [poster][suami-poster] at JMM 2026.
 
 During my sophomore year at Tech, I wrote a FORTH implementation, plus
 a keyboard and video driver, for a homebrew computer developed by
-Prof. Aaron Lanterman called the RetCom87.  I showcased it in a
+Prof. Aaron Lanterman called the RetCom87.  I showcased it in a
 [couple of][rc87-1] [YouTube videos][rc87-2], and the code is up [on
 GitHub][rc87-gh].
 
