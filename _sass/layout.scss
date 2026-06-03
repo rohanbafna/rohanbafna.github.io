@@ -76,7 +76,8 @@ main {
         display: block;
         width: $aside-width-large;
         height: $aside-width-large;
-        padding-top: calc(1rem / 3);       // align with top of text
+        position: relative;
+        top: calc(1rem / 3);       // align with top of text
     }
 }
 
