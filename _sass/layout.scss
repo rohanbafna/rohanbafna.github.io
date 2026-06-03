@@ -1,19 +1,42 @@
+$main-width-max: 35rem;
+$aside-width-large: 12rem;
+$aside-width-small: 4rem;
+$column-gap-large: 2rem;
+$row-gap: 2rem;
+
+$content-width-large: $main-width-max + $aside-width-large + $column-gap-large;
+$min-margin: 1rem;
+$content-box-large: $content-width-large + 2 * $min-margin;
+
 body {
-    max-width: 35rem;
+    margin: 0px $min-margin;
+}
+
+#content {
+    max-width: $content-width-large;
     margin: 2rem auto;
     padding-top: 0.5rem;
     border-top: 1px dotted gray;
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: $column-gap-large;
+    row-gap: $row-gap;
+    justify-content: space-between;
 }
 
 header {
+    flex: 100%;
+
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 1.5rem;
+    column-gap: 1.5rem;
+    row-gap: 0.4rem;
 
     h1 {
-        margin: 0px 1em 0.4em 0px;
+        margin: 0px;
         padding: 0px;
     }
 
@@ -41,6 +64,41 @@ header {
     }
 }
 
+main {
+    flex: $main-width-max;
+}
+
+main > :first-child { margin-top: 0px; }
+main > :last-child { margin-bottom: 0px; }
+
 #portrait {
-    display: none;
+    flex: $aside-width-large;
+    img {
+        display: block;
+        width: $aside-width-large;
+        height: $aside-width-large;
+        padding-top: calc(1rem / 3);       // align with top of text
+    }
+}
+
+@media (width < $content-box-large * $font-size-min / 1rem) {
+    #content {
+        max-width: $main-width-max;
+    }
+
+    header {
+        flex: none;
+        flex-direction: column;
+        h1 { font-size: 1.6em; }
+    }
+
+    #portrait {
+        flex: none;
+        display: block;
+        img {
+            padding: 0rem 0.05rem;
+            width: $aside-width-small;
+            height: $aside-width-small;
+        };
+    }
 }

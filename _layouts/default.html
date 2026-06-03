@@ -11,21 +11,23 @@
     <!-- Fix flash of unstyled content in Firefox.
     https://stackoverflow.com/a/57888310 -->
     <script>0</script>
-    <header>
-      <h1>{{ site.title }}</h1>
-      <nav>
-        <ul>
-          <li><a href="/cv.pdf">CV</a></li>
-          <li><a href="{{ site.github_url }}">GitHub</a></li>
-          <li><a href="mailto:{{ site.email }}">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <aside id="portrait">
-      <img src="/me.jpg" alt="A picture of me">
-    </aside>
-    <main>
-      {{ content }}
-    </main>
+    <div id="content">
+      <header>
+        <h1>{{ site.title }}</h1>
+        <nav>
+          <ul>
+            <li><a href="/cv.pdf">CV</a></li>
+            <li><a href="{{ site.github_url }}">GitHub</a></li>
+            <li><a href="mailto:{{ site.email }}">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <aside id="portrait">
+        <img src="/me.jpg" alt="My picture">
+      </aside>
+      <main>
+        {{ content }}
+      </main>
+    </div>
   </body>
 </html>

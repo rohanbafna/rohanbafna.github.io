@@ -1,7 +1,11 @@
 @import "drafting-mono";
 
+$font-size-min: 12px;
+$font-size-normal: 1.8vw;
+$font-size-max: 18px;
+
 html {
-    font: normal clamp(15px, 2.5vw, 18px) "Drafting* Mono", monospace;
+    font: normal clamp($font-size-min, $font-size-normal, $font-size-max) "Drafting* Mono", monospace;
     background: #fff;
     color: #2e2e2e;
 }
