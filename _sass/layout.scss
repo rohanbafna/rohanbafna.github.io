@@ -66,10 +66,9 @@ header {
 
 main {
     flex: $main-width-max;
+    > :first-child { margin-top: 0px; }
+    > :last-child { margin-bottom: 0px; }
 }
-
-main > :first-child { margin-top: 0px; }
-main > :last-child { margin-bottom: 0px; }
 
 #portrait {
     flex: $aside-width-large;
