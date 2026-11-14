@@ -1,9 +1,10 @@
 ---
 title: About me
 ---
-I am an incoming PhD student in Electrical and Computer Engineering at
-the University of Michigan.  I’m interested in formal verification of
-systems, type theory, programming languages, and formal mathematics.
+I am a first-year PhD student in Electrical and Computer Engineering
+at the University of Michigan.  I’m interested in formal verification
+of systems, type theory, programming languages, and formal
+mathematics.
 
 I'll be joining the [Complex Engineering Systems][ces] lab this fall,
 led by [Prof. Inigo Incer][iir].  Previously, I was an undergraduate
