@@ -6,16 +6,21 @@ at the University of Michigan.  I’m interested in formal verification
 of systems, type theory, programming languages, and formal
 mathematics.
 
-I'll be joining the [Complex Engineering Systems][ces] lab this fall,
-led by [Prof. Inigo Incer][iir].  Previously, I was an undergraduate
-student at Georgia Tech, graduating in the spring of 2026 with a BS in
-Computer Science and Mathematics.  While at Tech, I did research in
-scheduling supervised by Prof. Alexey Tumanov at the [SAIL lab][sail].
+I currently work in the [Complex Engineering Systems][ces] lab,
+advised by [Prof. Inigo Incer][iir].  Our lab studies assume-guarantee
+contracts, a mathematical structure which captures compositional
+aspects of reasoning about systems design.  My current research
+involves applying contracts to improve the safety of AI agents.
+
+Previously, I was an undergraduate student at Georgia Tech, graduating
+in the spring of 2026 with a BS in Computer Science and Mathematics.
+While at Tech, I did research in scheduling supervised by Prof. Alexey
+Tumanov at the [SAIL lab][sail].
 
 In my free time, I enjoy playing video games, reading, and listening
 to music (mostly new wave, prog rock, and jazz).
 
-Feel free to say hi at <{{ site.email }}>.
+You can reach me at <{{ site.email }}>.
 
 ## Projects & miscellany
 In the summer of 2025, as part of the [SUAMI][suami] REU at Carnegie
